@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Calculadora</string>
+    <string name="textoBienvenida">Bienvenido a la calculadora</string>
+    <string name="textoOpcion1">1. Fibonacci</string>
+    <string name="textoOpcion2">2. Potencia</string>
+    <string name="textoOpcion3">3. Multiplicacion</string>
+    <string name="botonIr">Ir</string>
+    <string name="bienvenidoFibonacci">Bienvenido a la calculadora de metodos Fibonacci</string>
+    <string name="textoFibonnaci">Ingrese el numero a calcular: </string>
+    <string name="buttonResFibonacci">Calcular</string>
+    <string name="FibonacciResultado">Resultado</string>
+    <string name="textNumeroUnoMultiplicacion">Numero 1:</string>
+    <string name="textNumeroDosMultiplicacion">Numero 2:</string>
+    <string name="buttonHacerMultiplicacion">Multiplicar</string>
+    <string name="textViewResMultiplicacion">Resultado</string>
+    <string name="textBienvenidosMultiplicacion">MULTIPLICACIÓN</string>
+    <string name="textViewBienvenidoPotencia"> Potencia </string>
+    <string name="textViewIngNum">Ingrese la base: </string>
+    <string name="textViewIngNumDos">Ingrese el exponente: </string>
+    <string name="buttonPotencia">Calcular potencia</string>
+    <string name="textViewResultadoPotencia">Resultado: </string>
+    <string name="buttonRegresar">Regresar </string>
+</resources>
