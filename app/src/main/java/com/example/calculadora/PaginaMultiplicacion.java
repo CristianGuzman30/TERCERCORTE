@@ -8,6 +8,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import com.example.calculadora.Calculadora;
+
 
 
 public class PaginaMultiplicacion extends AppCompatActivity {
@@ -31,9 +33,14 @@ public class PaginaMultiplicacion extends AppCompatActivity {
         btnResultado.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Multiplicar();
+                float resultado = Multiplicar(
+                        Float.parseFloat(et1.getText().toString()),
+                        Float.parseFloat(et2.getText().toString())
+                );
+                tvRes.setText(String.valueOf(resultado)); // Convertir a String antes de setText
             }
         });
+
 
         btnRegresar.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -43,14 +50,11 @@ public class PaginaMultiplicacion extends AppCompatActivity {
         });
     }
 
-    public void Multiplicar(){
+    public float Multiplicar(float n1, float n2){
 
-        float n1, n2, resm;
-        n1 = Float.parseFloat((et1.getText().toString()));
-        n2 = Float.parseFloat((et2.getText().toString()));
-        resm = n1 * n2;
-        tvRes.setText(String.valueOf(resm));
+        float res=Calculadora.Multiplicar(n1, n2);
 
+        return res;
     }
     private void Regresar(){
         Intent regresar = new Intent(this, MainActivity.class);

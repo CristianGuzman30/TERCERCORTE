@@ -20,4 +20,5 @@
     <string name="buttonPotencia">Calcular potencia</string>
     <string name="textViewResultadoPotencia">Resultado: </string>
     <string name="buttonRegresar">Regresar </string>
+    <string name="textViewMapa">4. Mapa Universidad: </string>
 </resources>

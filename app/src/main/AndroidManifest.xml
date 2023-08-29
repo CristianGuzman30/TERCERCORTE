@@ -12,6 +12,17 @@
         android:theme="@style/Theme.Calculadora"
         tools:targetApi="31">
         <activity
+            android:name=".PaginaSuma"
+            android:exported="false" />
+        <activity
+            android:name=".verMapa"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAFlYWSaPA8WUsqE9xwv3Fm0PvER7DM9cU" />
+
+        <activity
             android:name=".PaginaMultiplicacion"
             android:exported="false" />
         <activity

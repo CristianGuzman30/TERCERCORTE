@@ -46,22 +46,13 @@ public class PaginaFibonacci extends AppCompatActivity {
 
     }
 
-    private String operacionFibonacci(int n){
+    public int operacionFibonacci(int n) {
 
-       String text = "";
-        ArrayList<BigInteger> fib = new ArrayList<>();
-        BigInteger first = new BigInteger("0");
-        BigInteger second = new BigInteger("1");
-        fib.add(first);
-        fib.add(second);
-        for (int i = 1; i<n; i++){
-            fib.add(fib.get(i).add(fib.get(i-1)));
-        }
-        for (int i = 1; i<=n; i++){
-            text = text + i + ". " + fib.get(i) + "\n";
-        }
-        return text;
+        int res = Calculadora.Fibonacci(n);
+
+        return res;
     }
+
 
     private void Regresar(){
         Intent regresar = new Intent(this, MainActivity.class);

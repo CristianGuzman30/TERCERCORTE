@@ -29,10 +29,14 @@ public class PaginaPotencia extends AppCompatActivity {
         btnResultado.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Potencia();
-
+                int resultado = Potencia(
+                        Integer.parseInt(et1.getText().toString()),
+                        Integer.parseInt(et2.getText().toString())
+                );
+                tv1.setText(String.valueOf(resultado)); // Convertir a String antes de setText
             }
         });
+
         btnRegresar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -41,19 +45,11 @@ public class PaginaPotencia extends AppCompatActivity {
         });
     }
 
-    public void Potencia(){
+    public int Potencia(int base, int exponente){
 
-        int base=Integer.parseInt(et1.getText().toString());
-        int exponente=Integer.parseInt(et2.getText().toString());
-        int p=1;
+        int res= (int) Calculadora.Potencia(base, exponente);
 
-        while(exponente>0)
-        {
-            p=p*base;
-            exponente--;
-        }
-
-        tv1.setText(String.valueOf(p));
+        return res;
     }
 
     private void Regresar(){

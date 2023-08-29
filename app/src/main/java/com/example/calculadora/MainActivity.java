@@ -57,4 +57,10 @@ public class MainActivity extends AppCompatActivity {
             Intent multiplicacion = new Intent(this, PaginaMultiplicacion.class);
             startActivity(multiplicacion);
         }
+
+    private void operacionSuma(){
+        Intent suma = new Intent(this, PaginaSuma.class);
+        startActivity(suma);
+    }
+
     }
