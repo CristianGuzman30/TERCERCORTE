@@ -1,0 +1,248 @@
+"roboscript": {
+  "executionMode": {
+    "strict": false
+  },
+  "postscript": {
+    "terminate": false
+  }
+}
+[
+  {
+    "crawlStage": "crawl",
+    "contextDescriptor": {
+      "condition": "app_under_test_shown"
+    },
+    "actions": [
+      {
+        "eventType": "VIEW_TEXT_CHANGED",
+        "timestamp": 1693793711181,
+        "replacementText": "2",
+        "actionCode": -1,
+        "delayTime": 0,
+        "canScrollTo": false,
+        "elementDescriptors": [
+          {
+            "className": "androidx.appcompat.widget.AppCompatEditText",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 7,
+            "resourceId": "com.example.calculadora:id/ingresarNumEditText",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "androidx.constraintlayout.widget.ConstraintLayout",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "androidx.appcompat.widget.ContentFrameLayout",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "android:id/content",
+            "contentDescription": "",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "eventType": "VIEW_CLICKED",
+        "timestamp": 1693793715941,
+        "replacementText": "Ir",
+        "actionCode": -1,
+        "delayTime": 0,
+        "canScrollTo": false,
+        "elementDescriptors": [
+          {
+            "className": "com.google.android.material.button.MaterialButton",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 5,
+            "resourceId": "com.example.calculadora:id/irButton",
+            "contentDescription": "",
+            "text": "Ir"
+          },
+          {
+            "className": "androidx.constraintlayout.widget.ConstraintLayout",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "androidx.appcompat.widget.ContentFrameLayout",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "android:id/content",
+            "contentDescription": "",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "eventType": "VIEW_TEXT_CHANGED",
+        "timestamp": 1693793721591,
+        "replacementText": "10",
+        "actionCode": -1,
+        "delayTime": 0,
+        "canScrollTo": false,
+        "elementDescriptors": [
+          {
+            "className": "androidx.appcompat.widget.AppCompatEditText",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 2,
+            "resourceId": "com.example.calculadora:id/editTextIngresarNumero",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "androidx.constraintlayout.widget.ConstraintLayout",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "androidx.appcompat.widget.ContentFrameLayout",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "android:id/content",
+            "contentDescription": "",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "eventType": "VIEW_TEXT_CHANGED",
+        "timestamp": 1693793727146,
+        "replacementText": "3",
+        "actionCode": -1,
+        "delayTime": 0,
+        "canScrollTo": false,
+        "elementDescriptors": [
+          {
+            "className": "androidx.appcompat.widget.AppCompatEditText",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 7,
+            "resourceId": "com.example.calculadora:id/editTextIngresarNumero2",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "androidx.constraintlayout.widget.ConstraintLayout",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "androidx.appcompat.widget.ContentFrameLayout",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "android:id/content",
+            "contentDescription": "",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "eventType": "VIEW_CLICKED",
+        "timestamp": 1693793729872,
+        "replacementText": "Calcular potencia",
+        "actionCode": -1,
+        "delayTime": 0,
+        "canScrollTo": false,
+        "elementDescriptors": [
+          {
+            "className": "com.google.android.material.button.MaterialButton",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 3,
+            "resourceId": "com.example.calculadora:id/buttonPotencia",
+            "contentDescription": "",
+            "text": "Calcular potencia"
+          },
+          {
+            "className": "androidx.constraintlayout.widget.ConstraintLayout",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "androidx.appcompat.widget.ContentFrameLayout",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "android:id/content",
+            "contentDescription": "",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "eventType": "PRESSED_BACK",
+        "timestamp": 1693793734288,
+        "actionCode": -1,
+        "delayTime": 0,
+        "canScrollTo": false,
+        "elementDescriptors": []
+      },
+      {
+        "eventType": "VIEW_CLICKED",
+        "timestamp": 1693793737068,
+        "replacementText": "Regresar",
+        "actionCode": -1,
+        "delayTime": 0,
+        "canScrollTo": false,
+        "elementDescriptors": [
+          {
+            "className": "com.google.android.material.button.MaterialButton",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 8,
+            "resourceId": "com.example.calculadora:id/buttonRegresarPotencia",
+            "contentDescription": "",
+            "text": "Regresar"
+          },
+          {
+            "className": "androidx.constraintlayout.widget.ConstraintLayout",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "androidx.appcompat.widget.ContentFrameLayout",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "android:id/content",
+            "contentDescription": "",
+            "text": ""
+          }
+        ]
+      }
+    ]
+  }
+]
