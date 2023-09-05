@@ -29,6 +29,3 @@ jobs:
     - name: Construir con Gradle
       run: ./gradlew build
 
-    - name: Ejecutar pruebas
-      run: ./gradlew test
-
